@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+            <title>Servicios</title>
+            <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen" />
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="css/estilos.css">
+            <link rel="shortcut icon" href="images/pata.ico">  
+      </head>
+
+<body>
+      <div class="header">
+
+            <nav>
+                <div class="nav-wrapper teal lighten-2">
+                    <img class="responsive-img" src="img/logo.png" alt="imagenlogo">
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href="index.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="quienessomos.html">Quienes somos</a>
+                        </li>
+                        <li>
+                            <a href="servicios.html">Servicios</a>
+                        </li>
+                        <li>
+                            <a href="formulario.html" target="blank">Contactanos Para Adoptar!</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- esta ul cumple la funcion de contraer la información a una "hamburguesa" al momento de minimzar la página -->
+            <ul class="sidenav" id="mobile-demo">
+    
+                <li>
+                    <a href="index.html" target = "_top">Inicio</a>
+                </li>
+                <li>
+                    <a href="quienesSomos.html" target = "_top">Quienes somos</a>
+                </li>
+                <li>
+                    <a href="servicios.html" target = "_top">Servicios</a>
+                </li>
+                <li>
+                    <a href="formulario.html" target="blank">Contactanos</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="texto_medio">
+                  <p><u><b>Servicios</b></u><br><br>En nuestra peluquería canina procuramos otorgarle una atención integral a tu mascota.
+                     Nuestro servicio incluye baños para mascotas y cuidamos de su salud con procedimientos de medicina.
+
+                              Los servicios que ofrecemos en nuestra Peluquería Canina son:<br><br>
+                              <b>-</b> Baños sanitarios.<br>
+                              <b>-</b> Limpieza de oídos.<br>
+                              <b>-</b> Cortes de pelo.<br>
+                              <b>-</b> Corte de uñas.<br>
+                  </p>
+
+                  
+      </div>
+      <img class="imagen" src="images/peluqueria-canina.jpg" alt="">
+
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script>
+                  $('.carousel.carousel-slider').carousel({
+                      fullWidth: true
+                  });
+                  $(document).ready(function () {
+                      $('.sidenav').sidenav();
+                  });
+             
+                  $(document).ready(function () {
+                      $('.materialbox').materialbox();
+          
+                  });
+              </script>
+
+           
+</body>
+
+
+</html>
+    
+
+
